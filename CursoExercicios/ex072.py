@@ -6,6 +6,6 @@ while True:
         print('Você digitou um número negativo!')
     elif n1 > 20:
         print('Você digitou um número maior que 20!')
-    elif n1 > 0 and n1 < 20:
+    elif n1 >= 0 and n1 <= 20:
         print(f'Você digitou o número {tupla[n1]}')
         break
